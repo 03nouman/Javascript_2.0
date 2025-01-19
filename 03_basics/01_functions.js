@@ -9,6 +9,12 @@ function myName() {
 
 // myName();
 
+function helloworld(){
+  console.log("Hello world");
+  
+}
+helloworld();
+
 //  function addTwoumber () {
 //     console.log(1+3);
 
