@@ -17,11 +17,11 @@ let allHeroes = [...marvel_heroes,...dc_heroes]
 const another_Arrays = [1,2,3,[4,5],6,[7,[6,5]]];
 
 let useAble_Array = another_Arrays.flat(Infinity); // Interesting
-// console.log(useAble_Array);
+console.log("useAble-array", useAble_Array);//op:[1,2,3,4,5,6,7,6,5]
 
-console.log(Array.isArray("nouman"));
+console.log("isArray ",Array.isArray("nouman"));
 
-console.log(Array.from("nouman"));
+console.log("array from ",Array.from("nouman"));
 
 console.log(Array.from({name:"nouman"}));
 

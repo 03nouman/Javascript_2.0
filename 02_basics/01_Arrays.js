@@ -25,8 +25,10 @@ const myArr2 = new Array(1,2,3,4,5);
 
 // binding or joining the array converting the type into string method:
 const newArr = myArr.join()
-// console.log(myArr);
-// console.log(newArr);
+console.log(myArr);
+console.log(typeof myArr); // typeof:object
+console.log(newArr);
+console.log(typeof newArr); // typeof: string
 
 
 // slice and splice
